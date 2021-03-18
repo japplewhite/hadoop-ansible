@@ -55,7 +55,7 @@ core_site_properties:
   }
   - {
     "name": "fs.s3a.connection.ssl.enabled",
-    "value": "'false'"
+    "value": "false"
   }
   - {
     "name": "fs.s3a.endpoint",
@@ -73,7 +73,8 @@ core_site_properties:
     "name": "fs.s3a.signing-algorithm",
     "value": "S3SignerType"
   }
-  - "name": "fs.s3a.aws.credentials.provider",
+  - {
+    "name": "fs.s3a.aws.credentials.provider",
     "value": "org.apache.hadoop.fs.s3a.SimpleAWSCredentialsProvider"
   }
 
