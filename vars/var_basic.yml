@@ -40,42 +40,42 @@ core_site_properties:
     "value":"131072"
   }
   - {
-    "name": "fs.s3a.access.key",
-    "value": "7HXCNV8SA3XQJBXCQCSC",
-    "description": "SG Access Key"
+    "name":"fs.s3a.access.key",
+    "value":"7HXCNV8SA3XQJBXCQCSC",
+    "description":"SG Access Key"
   }
   - {
-    "name": "fs.s3a.secret.key",
-    "value": "/zHTloJNA1zHJXRD6QkuqXQOrz3WJiYP0IUMuvph",
-    "description": "SG Secret Key"
+    "name":"fs.s3a.secret.key",
+    "value":"/zHTloJNA1zHJXRD6QkuqXQOrz3WJiYP0IUMuvph",
+    "description":"SG Secret Key"
   }
   - {
-    "name": "fs.s3a.buffer.dir",
-     "value": "/tmp/"
+    "name":"fs.s3a.buffer.dir",
+     "value":"/tmp/"
   }
   - {
-    "name": "fs.s3a.connection.ssl.enabled",
-    "value": "false"
+    "name":"fs.s3a.connection.ssl.enabled",
+    "value":"false"
   }
   - {
-    "name": "fs.s3a.endpoint",
-    "value": "sg1000-tme-04.rtp.openenglab.netapp.com:10444"
+    "name":"fs.s3a.endpoint",
+    "value":"sg1000-tme-04.rtp.openenglab.netapp.com:10444"
   }
   - {
-    "name": "fs.s3a.impl",
-    "value": "org.apache.hadoop.fs.s3a.S3AFileSystem"
+    "name":"fs.s3a.impl",
+    "value":"org.apache.hadoop.fs.s3a.S3AFileSystem"
   }
   - {
-    "name": "fs.s3a.path.style.access",
-    "value": "true"
+    "name":"fs.s3a.path.style.access",
+    "value":"true"
   }
   - {
-    "name": "fs.s3a.signing-algorithm",
-    "value": "S3SignerType"
+    "name":"fs.s3a.signing-algorithm",
+    "value":"S3SignerType"
   }
   - {
-    "name": "fs.s3a.aws.credentials.provider",
-    "value": "org.apache.hadoop.fs.s3a.SimpleAWSCredentialsProvider"
+    "name":"fs.s3a.aws.credentials.provider",
+    "value":"org.apache.hadoop.fs.s3a.SimpleAWSCredentialsProvider"
   }
 
 
