@@ -19,3 +19,6 @@
 
 - name: Set Hadoop Env
   shell: source /etc/profile.d/hadoop_env.sh
+
+- name: Copy hadoop-env.sh script
+  template: src=hadoop-env.sh dest={{ hadoop_config_path }} mode=644 owner={{ user }} group = {{ group }}
